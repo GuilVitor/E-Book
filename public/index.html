@@ -1,20 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <script src = " https://unpkg.com/react/umd/react.production.min.js "  crossorigin > </script>
+
+<script 
+  src = " https://unpkg.com/react-dom/umd/react-dom.production.min.js "
+   crossorigin > </script>
+
+<script 
+  src = " https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js "
+   crossorigin> </script>
+
+<script> var Alert = ReactBootstrap.Alert; </script>
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -26,7 +38,49 @@
     -->
     <title>React App</title>
   </head>
-  <body>
+ 
+  <body">
+
+  <style>
+    body{
+      
+      background-image: linear-gradient(to top,#0F79AF,#1b2530);
+      width: 100% !important;
+       
+    }
+    .inf2{
+      background: #0F79AF !important;
+    }
+    .inf3{
+      background: #0F79AF !important;
+    }
+    .inf{
+      background: #0F79AF !important;
+    }
+    #root{
+      min-height: 101vh !important;
+      background: #0F79AF !important;
+
+    }
+    @media (max-width:1070px) and (min-width:990px) {
+      body{
+        background-image: linear-gradient(to top,#0F79AF,#1b2530);
+
+       
+    }
+    .Destaque{
+     margin-left: -30px;
+    }
+
+    }
+
+   
+
+   
+    </style>
+    
+  </style>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

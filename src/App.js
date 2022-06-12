@@ -1,24 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+import Menu from "./Navbar/Navbar";
+import Imports from "./Imports";
+import Destaque from "./Destaque/Destaque";
+import Acao from "./Acao/Acao";
+import Romance from "./Romance/Romance";
+import Infantis from "./Infantis/Infantis";
+import Cursos from "./Cursos/Cursos";
+import Historia from "./Historia/Historia";
+import Literaturaa from "./Literatura/Literatura";
+import Medicinaa from "./Medicina/Medicina";
+import Cordel from "./Cordel/Cordel";
+import Religiao from "./Religiao/Religiao";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   
+
+  <div className="App">
+
+    <Menu />
+    <Destaque />
+    <Acao />
+    <Romance />
+    <Infantis />
+    <Cursos />
+    <Historia />
+    <Literaturaa />
+    <Medicinaa />
+    <Cordel />
+    <Religiao />
+    
+
+    <Imports />
+
+  </div>
+
+
+
   );
 }
 
